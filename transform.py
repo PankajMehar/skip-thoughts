@@ -23,4 +23,4 @@ print len(Xsample)
 textvector=skipthoughts.encode(model,Xsample)
 dec=tools.load_model()
 transformedtext = tools.run_sampler(dec, textvector, beam_width=1, stochastic=True, use_unk=False)
-print transformedtext
+print transformedtext[0]
