@@ -16,8 +16,8 @@ from search import gen_sample
 #-----------------------------------------------------------------------------#
 # Specify model and dictionary locations here
 #-----------------------------------------------------------------------------#
-path_to_model = '/u/rkiros/research/semhash/models/toydec.npz'
-path_to_dictionary = '/ais/gobi3/u/rkiros/flickr8k/dictionary.pkl'
+path_to_model = 'models/try.npz'
+path_to_dictionary = 'sampletext/sampledict'
 #-----------------------------------------------------------------------------#
 
 def load_model():
